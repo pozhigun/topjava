@@ -27,4 +27,5 @@ public class UserMealWithExcess {
                 ", excess=" + excess +
                 '}';
     }
+
 }
