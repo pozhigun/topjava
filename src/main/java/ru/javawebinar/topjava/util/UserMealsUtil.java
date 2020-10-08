@@ -44,8 +44,8 @@ public class UserMealsUtil {
             if (TimeUtil.isBetweenHalfOpen(m.getDateTime().toLocalTime(), startTime, endTime)) {
                 listUserMealExcess.add(createTo(m,
                         countedCaloriesPerDay.get(m
-                                .getDateTime().toLocalDate()) <=
-                                caloriesPerDay));
+                                .getDateTime().toLocalDate())
+                                <= caloriesPerDay));
             }
         });
 
