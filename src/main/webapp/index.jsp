@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR" %>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Enterprise (Topjava)</title>
+</head>
+<body>
+<h3>¬±¬â¬à¬Ö¬Ü¬ä <a href="https://github.com/JavaWebinar/topjava" target="_blank">Java Enterprise (Topjava)</a></h3>
+<hr>
+<ul>
+    <li><a href="users">Users</a></li>
+    <li><a href="meals?action=listMeal">Meals</a></li>
+</ul>
+</body>
+</html>
